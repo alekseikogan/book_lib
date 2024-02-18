@@ -4,19 +4,15 @@
     // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
-
         {
-            "name": "Python: Django",
-            "type": "python",
+            "name": "Отладчик Python: Django",
+            "type": "debugpy",
             "request": "launch",
-            "program": "${workspaceFolder}\\app_root\\manage.py",
+            "program": "${workspaceFolder}\\manage.py",
             "args": [
                 "runserver"
             ],
-            "django": true,
-            "justMyCode": true
+            "django": true
         }
     ]
 }
